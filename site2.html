@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>I bins da profi</title>
+</head>
+<script>
+   function changeText() {
+        document.getElementById("paragraph1").innerHTML =
+            "Wer das ließt ist blöd.";
+   }
+</script>
+<script>
+    function makeSum() {
+        let n1 = document.getElementById("idNum1").value;
+        let n2 = document.getElementById("idNum2").value;
+        document.getElementById("paragraph1").innerHTML =
+            Number(n1) + Number(n2);
+    }
+</script>
+	
+
+<body style="background:#00ffff">
+	<h1>Hello world</h1>
+	<h2>Das ist die 2 Seite</h2>
+
+	
+	<a href="https://shop.billa.at/produkte/ottakringer-helles-0011990">
+<img src="./Bilder/Billa.jpg"
+	 alt="A Büdl vom Ottakringer"
+
+	 width="500" height="400">
+ </a> 
+	<br>
+	<p>
+		Do konnst is kaffn!
+		</p><br>
+	<a href="https://www.youtube.com/watch?v=KRMKmYHW-WM">
+	So reist ma si is Ottakringer richtig auf!</a> <br>
+
+	<p>
+	<a href="./helloworld.html">Da geht es zurück zur Seite 1 </a>
+		</p>
+	<br>
+	<button onclick="changeText()"> Klick mich mal</button>
+<p id="paragraph1">
+    Da steht nix
+</p>
+
+	<form>
+<label for="fname">Erste Zahl:</label> <br>
+<input type="number" id="idNum1" name="nameNum1" ><br>
+<label for="number">zweite Zahl:</label> <br>
+<input type="number" id="idNum2" name="nameNum2">
+</form>
+</body>
+</html>
+
